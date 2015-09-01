@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="src/reader.js"></script>
+		<link rel="stylesheet" type="text/css" href="src/styles.css">
+		<title id="title">Coopix Docs</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html?page=index.md">Home</a></li>
+				<li><a href="index.html?page=front-end.md">Front-End</a></li>
+				<li><a href="index.html?page=back-end.md">Back-End</a></li>
+				<li><a href="index.html?page=server.md">Server</a></li>
+				<li><a href="index.html?page=other.md">Other</a></li>
+
+
+			</ul>
+		</nav>
+		
+		<xmp id="content" theme="cerulean" style="display:none;">
+		</xmp>
+	</body>
+	<script type="text/javascript">
+				var page = get('page');
+				readTextFile("lib/" + page);
+				var title = document.getElementById('title');
+				title.innerHTML = title.innerHTML + " (" + page + ")";
+	</script>
+	<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
