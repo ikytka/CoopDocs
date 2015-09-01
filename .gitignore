@@ -1,0 +1,4 @@
+#Ignore actual markdown library
+lib/*.md
+#npm packages
+/node_modules
