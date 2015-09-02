@@ -1,14 +1,13 @@
 nav{
-/*	border: 1px solid black; */
-	padding-left: 100px;
-	border-bottom: 1px solid black;
+	text-align: right;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 40px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: -1px;
 }
-ul{
-    list-style-type: none;
-    margin-left: 100px;
-    margin-right: auto;
-}
-li{
-	display: inline-block;
-	margin-right: 5px;
+.navbar-toggle{
+	display:none;
 }
