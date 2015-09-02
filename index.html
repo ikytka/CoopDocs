@@ -11,6 +11,10 @@
 	</body>
 	<script type="text/javascript">
 				var page = get('page');
+				if (page == undefined)
+					{
+						var page = "index.md";
+					}
 				readTextFile("lib/" + page);
 				var title = document.getElementById('title');
 				title.innerHTML = title.innerHTML + " (" + page + ")";
