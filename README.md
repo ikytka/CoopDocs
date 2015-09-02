@@ -5,6 +5,8 @@ It adds the option to load various **.md** files from a **/lib** folder.
 
 ### Usage
 ```bash
+git clone https://github.com/Coopix/CoopDocs.git
+
 npm install
 
 mkdir lib
@@ -21,7 +23,8 @@ index.html?page="your-file.md"
 This will render your markdown file.
 
 ### Todo
-Add server-side node.js app for creating file-tree of your doc library.
+* Add navigation menu to the top bar.
+* Add server-side node.js app for creating file-tree of your doc library.
 
 ### Links
 
