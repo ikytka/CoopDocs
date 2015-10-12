@@ -1,5 +1,6 @@
-cd lib/
+cd pages/docs/
 git pull
 ./indexgen.sh
 cd ..
-gatsby build
+cd ..
+gatsby build && echo "Gatsby has builded your documentation. Rejoice!"
