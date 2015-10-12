@@ -3,3 +3,5 @@ lib/*.md
 #npm packages
 /node_modules
 docs
+/index.md
+/public
