@@ -2,3 +2,4 @@
 lib/*.md
 #npm packages
 /node_modules
+docs
