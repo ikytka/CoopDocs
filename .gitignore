@@ -5,3 +5,4 @@ lib/*.md
 docs
 /index.md
 /public
+npm-debug.log
