@@ -1,8 +1,15 @@
 #Ignore actual markdown library
-lib/*.md
+docs
+
 #npm packages
 /node_modules
-docs
+
+# Coopix Specific
 /index.md
+
+# Builded Docs
 /public
+
+# Log Files
 npm-debug.log
+cronjob.log
