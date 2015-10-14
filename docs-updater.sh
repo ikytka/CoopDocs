@@ -1,3 +1,4 @@
+PATH=/usr/local/bin/
 cd /webapps/CoopDocs/pages/docs/
 git pull && echo "Pulled new version from the repo successful."
 ./indexgen.sh && echo "Indexgen script finished building CoopDocs Index File."
